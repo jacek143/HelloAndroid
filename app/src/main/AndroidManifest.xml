@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <service
-            android:name=".BroadcastingService"
+            android:name=".Service1"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
-        <activity android:name=".DisplayMessageActivity">
+        <activity android:name=".Activity2">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".Activity1" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

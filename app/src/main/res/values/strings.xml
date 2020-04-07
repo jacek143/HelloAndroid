@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">My First App</string>
-    <string name="expression_string">1</string>
-    <string name="compute_button">=</string>
-    <string name="broadcasting_button">Start</string>
+    <string name="start_new_incrementing_service">Start a new broadcasting service</string>
+    <string name="show_activity_with_counter">Show activity with broadcast receiver</string>
+    <string name="stop_incrementing_services">Stop all broadcasting services</string>
+    <string name="received_intents">Received intents from broadcasting service</string>
 </resources>
